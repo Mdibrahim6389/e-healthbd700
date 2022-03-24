@@ -17,61 +17,72 @@
 
 <body>
   <!-- ======= Top Bar ======= -->
-  <section>
-    <header id="header" class="bg-white fixed-top">
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container-fluid">
-          <a href="#"><img class="navbar-brand" src="assets/img/gallery/Logo1.png" alt="image"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">About Us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Misson & Vission</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Photo Gallery</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contactus.html">Contact Us</a>
-              </li>
-            </ul>
-            <div class="nav-item dropdown rounded  m-1 bg-primary text-light">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Eng/বাংলা
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Bangla</a></li>
-                <li><a class="dropdown-item" href="#">English</a></li>
+  <header>
+    <div class="fixed-top bg-white">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img src="assets/img/gallery/Logo1.png">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Mission & Vision</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Gallery</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contactus.html">Contact Us</a>
+                </li>
               </ul>
-            </div>
-            <div class="nav-item dropdown rounded bg-secondary text-light ">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Registration
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="doctor_reg.html">Doctor</a></li>
-                <li><a class="dropdown-item" href="Visitor.html">Visitor</a></li>
-                <li><a class="dropdown-item" href="Reg_form2.html">Organizition</a></li>
-              </ul>
-            </div>
-            <div class="btn">
-              <a href="login.html" class="btn btn-outlinr-primary bg-success text-light">Login</a>
+              <form class="d-flex">
+                <div class="btn-group ms-1">
+                  <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Eng/বাংলা
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Bangla</a></li>
+                    <li><a class="dropdown-item" href="#">English</a></li>
+                  </ul>
+                </div>
+                <div class="btn-group ms-1">
+                  <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Registration
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="doctor_reg.html">Doctor</a></li>
+                    <li><a class="dropdown-item" href="Visitor.html">Visitor</a></li>
+                    <li><a class="dropdown-item" href="Reg_form2.html">Organizition</a></li>
+                  </ul>
+                </div>
+                <div class="ms-1">
+                  <button type="button" class="btn btn-success">
+                    <a href="login.html" class="text-white text-decoration-none">Login</a>
+                  </button>
+                </div>
+              </form>
             </div>
           </div>
-        </div>
-      </nav>
+        </nav>
       </div>
-    </header>
-  </section>
+    </div>
+  </header>
+
   <!-- Top Bar End -->
 
   <!----Carousel/Slider Section Start-->
@@ -117,6 +128,7 @@
   </section>
   <!----Carousel/Slider Section End-->
 
+
   <!----Find Doctor Section Star-->
   <section>
     <section id="about" class="about container mt-5">
@@ -155,6 +167,7 @@
   </section>
   <!----Find Doctor Section End-->
 
+
   <!----Appointment Section End-->
   <div class="appointment">
     <div class="container mt-5">
@@ -167,7 +180,7 @@
 
   <!-- ======= Counts Section ======= -->
   <section id="counts">
-    <section class="counts mt-5">
+    <section class="counts container mt-5">
       <div class="row">
         <div class="col-lg-3 col-6 col-md-sm-6">
           <div class="count-box">
@@ -213,7 +226,7 @@
       <div class="section-title">
         <h2 class="">Browse on Speciliaty</h2>
       </div>
-      <div class="row doctor_service">
+      <div class="row doctor_service mt-5">
         <div class="col-lg-4 col-6">
           <div class="icon-box d-flex justify-content-center align-items-center">
             <div>
@@ -241,7 +254,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-6"> 
+        <div class="col-lg-4 col-6">
           <div class="icon-box d-flex justify-content-center align-items-center">
             <div>
               <div class="icon"><img class="img-fulid hospital_logo" src="assets/img/service_logo/Dental.png" alt="">
@@ -328,12 +341,12 @@
   <!-- ======= Browse Section End ======= -->
 
   <!-- ======= Doctor Section End ======= -->
-  <section id="doctors" class="">
+  <section id="doctors">
     <section class="doctors container">
-      <div class="row">
-        <div class="section-title mt-3">
-          <h2>Doctors</h2>
-        </div>
+      <div class="section-title mt-3">
+        <h2>Doctors</h2>
+      </div>
+      <div class="row mt-5">
         <div class="col-lg-4 col-6 mb-5 ">
           <div class="member d-flex align-items-start">
             <div class="pic"><img src="assets/img/doctors/doctors-1.jpg" class="img-fluid" alt=""></div>
@@ -511,7 +524,7 @@
       <div class="section-title mt-5">
         <h2>Blog Post</h2>
       </div>
-      <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="row row-cols-1 mt-5 row-cols-md-3 g-4">
         <div class="col">
           <div class="card">
             <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp" class="card-img-top"
@@ -527,7 +540,7 @@
           </div>
         </div>
         <div class="col">
-          <div class="card shadow">
+          <div class="card">
             <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/042.webp" class="card-img-top"
               alt="Palm Springs Road" />
             <div class="card-body">
@@ -541,7 +554,7 @@
           </div>
         </div>
         <div class="col">
-          <div class="card shadow">
+          <div class="card">
             <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/043.webp" class="card-img-top"
               alt="Los Angeles Skyscrapers" />
             <div class="card-body">
@@ -628,18 +641,11 @@
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
       class="bi bi-arrow-up-short"></i></a>
 
-  <!-- Option 1: Bootstrap Bundle with Popper -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
     crossorigin="anonymous"></script>
-
-  <!-- Option 2: Separate Popper and Bootstrap JS -->
-
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
-    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
     crossorigin="anonymous"></script>
 
 </body>
