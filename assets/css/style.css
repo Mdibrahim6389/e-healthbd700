@@ -622,78 +622,85 @@ img.img-fulid.hospital_logo {
 # Registration
 --------------------------------------------------------------*/
 .Registration_form{
-  background-image: url(/assets/img/gallery/5555.jpg); 
-  background-size: cover;
+  background-color: #4C6886;
 }
+
+
 /*--------------------------------------------------------------
 # Visitor
 --------------------------------------------------------------*/
 .visitor_From{
-  background-image: url(/assets/img/gallery/5555.jpg); 
-  background-size: cover;
+  background-color: #4C6886;
 }
+
+
 /*--------------------------------------------------------------
 # Dorctor Reg
 --------------------------------------------------------------*/
 .dorctorreg_from{
-  background-image: url(/assets/img/gallery/5555.jpg); 
-  background-size: cover;
+  background-color: #4C6886;
 }
+
+
 /*--------------------------------------------------------------
-# Dorctor List
+# Dorctor Pofile
 --------------------------------------------------------------*/
-#doctorlist{
-  /* background-image: url(/assets/img/gallery/5555.jpg);
-  background-size: cover; */
-  background-color:rgb(189, 189, 189)
+#doctormain_section{
+  margin-top:130px;
+  background-color:#D9EDF7;
 }
-#doctorlist .maindoctorlist{
-  margin-top:137px;
+.doctor_section{
+	width: 100%;
+	height: 100%;
+  border-radius:5px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;
+  background-color: rgb(255, 255, 255);
 }
-#doctorlist .maindoctorlist .row .card{
- min-height:503px;
- }
+.doctor_section img{
+  max-width: 263px;
+  max-height: 250px;
+  min-height: 250px;
+  border-radius: 10%;
+}
+
+
  /*--------------------------------------------------------------
 # Organisation List
 --------------------------------------------------------------*/
-#doctorlist .ogranazitionlist{
-  margin-top:137px;
- }
-#doctorlist .ogranazitionlist h1{
-  color: #0652DD;
- }
-#doctorlist .ogranazitionlist .card{
-width: 100%;
-height: 100%;
- }
-#doctorlist .ogranazitionlist .card .card-body{
- /* overflow: hidden; */
- }
-#doctorlist .ogranazitionlist .card img{
- max-width:130px;
- max-height:130px;
+#Organisationlist{
+  margin-top:130px;
+  background-color:#D9EDF7;
+}
+.main_section{
+	width: 100%;
+	height: 100%;
+  border-radius:5px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;
+  background-color: rgb(255, 255, 255);
+}
+.main_section img{
+ max-width:200px;
+ max-height:120px;
+ min-height: 120px;
  margin: auto;
  border-radius: 50%;
- margin-top: 10px;
- }
-#doctorlist .ogranazitionlist .card .card-body h4{
-  color: green;
-  font-size: 20px;
-  text-align: center;
- }
-#doctorlist .ogranazitionlist .card .card-body h5{
-  color: rebeccapurple;
- }
-#doctorlist .ogranazitionlist .card .card-body .social a{
+}
+#Organisationlist .main_section .social a{
   font-size: 30px;
  }
-#doctorlist .ogranazitionlist .card .card-body .social .ri-facebook-fill{
+ #Organisationlist .main_section .social .ri-facebook-fill{
   color:#3b5998;
  }
-#doctorlist .ogranazitionlist .card .card-body .social .ri-twitter-fill{
+ #Organisationlist .main_section .social .ri-twitter-fill{
   color:#00acee;
  }
-#doctorlist .ogranazitionlist .card .card-body .social .ri-linkedin-box-fill{
+ #Organisationlist .main_section .social .ri-linkedin-box-fill{
   color:#0e76a8;
- }
+ } 
 
