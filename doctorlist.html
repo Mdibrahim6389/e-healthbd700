@@ -12,152 +12,158 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="stylesheet" href="assets/css/doctorlist.css">
   <title>Health BD</title>
 </head>
 
-<body>
+<body id="doctorlist">
   <!-- ======= Top Bar ======= -->
-  <section>
-    <header id="header" class="bg-white fixed-top">
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container-fluid">
-          <a href="#"><img class="navbar-brand" src="assets/img/gallery/Logo1.png" alt="image"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">About Us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Misson & Vission</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Photo Gallery</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contactus.html">Contact Us</a>
-              </li>
-            </ul>
-            <div class="nav-item dropdown rounded  m-1 bg-primary text-light">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Eng/বাংলা
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Bangla</a></li>
-                <li><a class="dropdown-item" href="#">English</a></li>
+  <header class="navsection">
+    <div class="fixed-top bg-white">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img src="assets/img/gallery/Logo1.png">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Mission & Vision</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Gallery</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contactus.html">Contact Us</a>
+                </li>
               </ul>
-            </div>
-            <div class="nav-item dropdown rounded bg-secondary text-light ">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Registration
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="doctor_reg.html">Doctor</a></li>
-                <li><a class="dropdown-item" href="Visitor.html">Visitor</a></li>
-                <li><a class="dropdown-item" href="Reg_form2.html">Organizition</a></li>
-              </ul>
-            </div>
-            <div class="btn">
-              <a href="login.html" class="btn btn-outlinr-primary bg-success text-light">Login</a>
+              <form class="d-flex">
+                <div class="btn-group ms-1">
+                  <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Eng/বাংলা
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Bangla</a></li>
+                    <li><a class="dropdown-item" href="#">English</a></li>
+                  </ul>
+                </div>
+                <div class="btn-group ms-1">
+                  <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Registration
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="doctor_reg.html">Doctor</a></li>
+                    <li><a class="dropdown-item" href="Visitor.html">Visitor</a></li>
+                    <li><a class="dropdown-item" href="Reg_form2.html">Organizition</a></li>
+                  </ul>
+                </div>
+                <div class="ms-1">
+                  <button type="button" class="btn btn-success">
+                    <a href="login.html" class="text-white text-decoration-none">Login</a>
+                  </button>
+                </div>
+              </form>
             </div>
           </div>
-        </div>
-      </nav>
-      </div>
-    </header>
-  </section>
-  <!-- Top Bar End -->
-
-  <section class="main_section container-fluid mb-5">
-    <div class="row bg-light">
-      <div class="col-12 py-5">
-        <h1 class="text-center font-weight-bold">DOCTOR LIST</h1>
+        </nav>
       </div>
     </div>
-    <div class=" row container m-auto">
-      <div class="col-md-3 col-6 mt-5">
+  </header>
+
+  <!-- Top Bar End -->
+
+  <section class="maindoctorlist container-fluid">
+    <h1 class="text-center text-white font-weight-bold">DOCTOR LIST</h1>
+    <div class=" row m-auto mb-3">
+      <div class="col-md-3 col-6 mt-3 text-center">
         <div class="card">
-          <img class="card-img-top" src="/assets/img/doctors/doctors-1.jpg" alt="Card image">
+          <img class="card-img-top " src="/assets/img/doctors/doctors-1.jpg" alt="Card image">
           <div class="card-body">
-            <h4 class="card-title">John Doe</h4>
+            <h4 class="card-title text-primary">John Doe</h4>
             <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
             <a href="#" class="btn btn-primary">See Profile</a>
           </div>
         </div>
       </div>
-      <div class="col-md-3 col-6 mt-5">
+      <div class="col-lg-3 col-md-2 col-6 mt-3 text-center">
         <div class="card">
           <img class="card-img-top" src="/assets/img/doctors/doctors-2.jpg" alt="Card image">
           <div class="card-body">
-            <h4 class="card-title">John Doe</h4>
+            <h4 class="card-title text-primary">John Doe</h4>
             <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
             <a href="#" class="btn btn-primary">See Profile</a>
           </div>
         </div>
       </div>
-      <div class="col-md-3 col-6 mt-5">
+      <div class="col-lg-3 col-md-2 col-6 mt-3 text-center">
         <div class="card">
           <img class="card-img-top" src="/assets/img/doctors/doctors-3.jpg" alt="Card image">
           <div class="card-body">
-            <h4 class="card-title">John Doe</h4>
+            <h4 class="card-title text-primary">John Doe</h4>
             <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
             <a href="#" class="btn btn-primary">See Profile</a>
           </div>
         </div>
       </div>
-      <div class="col-md-3 col-6 mt-5">
+      <div class="col-lg-3 col-md-2 col-6 mt-3 text-center">
+        <div class="card">
+          <img class="card-img-top" src="/assets/img/doctors/doctors-3.jpg" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title text-primary">John Doe</h4>
+            <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+            <a href="#" class="btn btn-primary">See Profile</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-2 col-6 mt-3 text-center">
         <div class="card">
           <img class="card-img-top" src="/assets/img/doctors/doctors-4.jpg" alt="Card image">
           <div class="card-body">
-            <h4 class="card-title">John Doe</h4>
+            <h4 class="card-title text-primary">John Doe</h4>
             <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
             <a href="#" class="btn btn-primary">See Profile</a>
           </div>
         </div>
       </div>
-      <div class="col-md-3 col-6 mt-5">
+      <div class="col-lg-3 col-md-2 col-6 mt-3 text-center">
         <div class="card">
           <img class="card-img-top" src="/assets/img/doctors/doctors-1.jpg" alt="Card image">
           <div class="card-body">
-            <h4 class="card-title">John Doe</h4>
+            <h4 class="card-title text-primary">John Doe</h4>
             <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
             <a href="#" class="btn btn-primary">See Profile</a>
           </div>
         </div>
       </div>
-      <div class="col-md-3 col-6 mt-5">
+      <div class="col-lg-3 col-md-2 col-6 mt-3 text-center">
         <div class="card">
           <img class="card-img-top" src="/assets/img/doctors/doctors-2.jpg" alt="Card image">
           <div class="card-body">
-            <h4 class="card-title">John Doe</h4>
-            <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+            <h4 class="card-title text-primary">John Doe</h4>
+            <p class="card-text">Some example te and engineer</p>
             <a href="#" class="btn btn-primary">See Profile</a>
           </div>
         </div>
       </div>
-      <div class="col-md-3 col-6 mt-5">
+      <div class="col-lg-3 col-md-2 col-6 mt-3 text-center">
         <div class="card">
           <img class="card-img-top" src="/assets/img/doctors/doctors-3.jpg" alt="Card image">
           <div class="card-body">
-            <h4 class="card-title">John Doe</h4>
-            <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-            <a href="#" class="btn btn-primary">See Profile</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3 col-6 mt-5">
-        <div class="card">
-          <img class="card-img-top" src="/assets/img/doctors/doctors-4.jpg" alt="Card image">
-          <div class="card-body">
-            <h4 class="card-title">John Doe</h4>
-            <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+            <h4 class="card-title text-primary">John Doe</h4>
+            <p class="card-text">Some example text some ect and engineer</p>
             <a href="#" class="btn btn-primary">See Profile</a>
           </div>
         </div>

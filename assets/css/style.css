@@ -639,8 +639,61 @@ img.img-fulid.hospital_logo {
   background-image: url(/assets/img/gallery/5555.jpg); 
   background-size: cover;
 }
-
-
-
-
+/*--------------------------------------------------------------
+# Dorctor List
+--------------------------------------------------------------*/
+#doctorlist{
+  /* background-image: url(/assets/img/gallery/5555.jpg);
+  background-size: cover; */
+  background-color:rgb(189, 189, 189)
+}
+#doctorlist .maindoctorlist{
+  margin-top:137px;
+}
+#doctorlist .maindoctorlist .row .card{
+ min-height:503px;
+ }
+ /*--------------------------------------------------------------
+# Organisation List
+--------------------------------------------------------------*/
+#doctorlist .ogranazitionlist{
+  margin-top:137px;
+ }
+#doctorlist .ogranazitionlist h1{
+  color: #0652DD;
+ }
+#doctorlist .ogranazitionlist .card{
+width: 100%;
+height: 100%;
+ }
+#doctorlist .ogranazitionlist .card .card-body{
+ /* overflow: hidden; */
+ }
+#doctorlist .ogranazitionlist .card img{
+ max-width:130px;
+ max-height:130px;
+ margin: auto;
+ border-radius: 50%;
+ margin-top: 10px;
+ }
+#doctorlist .ogranazitionlist .card .card-body h4{
+  color: green;
+  font-size: 20px;
+  text-align: center;
+ }
+#doctorlist .ogranazitionlist .card .card-body h5{
+  color: rebeccapurple;
+ }
+#doctorlist .ogranazitionlist .card .card-body .social a{
+  font-size: 30px;
+ }
+#doctorlist .ogranazitionlist .card .card-body .social .ri-facebook-fill{
+  color:#3b5998;
+ }
+#doctorlist .ogranazitionlist .card .card-body .social .ri-twitter-fill{
+  color:#00acee;
+ }
+#doctorlist .ogranazitionlist .card .card-body .social .ri-linkedin-box-fill{
+  color:#0e76a8;
+ }
 
