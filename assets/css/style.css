@@ -487,6 +487,129 @@ color: white;
 img.img-fulid.hospital_logo {
     max-width: 58px;
 }
+
+/*--------------------------------------------------------------
+# Registration
+--------------------------------------------------------------*/
+.Registration_form{
+  background-color: #4C6886;
+}
+
+
+/*--------------------------------------------------------------
+# Visitor
+--------------------------------------------------------------*/
+.visitor_From{
+  background-color: #4C6886;
+}
+
+
+/*--------------------------------------------------------------
+# Dorctor Reg
+--------------------------------------------------------------*/
+.dorctorreg_from{
+  background-color: #4C6886;
+}
+
+
+/*--------------------------------------------------------------
+# Dorctor list
+--------------------------------------------------------------*/
+#doctormain_section{
+  margin-top:130px;
+  background-color:#D9EDF7;
+}
+.doctor_section{
+	width: 100%;
+	height: 100%;
+  border-radius:5px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;
+  background-color: rgb(255, 255, 255);
+}
+.doctor_section img{
+  max-width: 263px;
+  max-height: 250px;
+  min-height: 250px;
+  border-radius: 10%;
+}
+
+
+ /*--------------------------------------------------------------
+# Organisation List
+--------------------------------------------------------------*/
+#Organisationlist{
+  margin-top:130px;
+  background-color:#D9EDF7;
+}
+.main_section{
+	width: 100%;
+	height: 100%;
+  border-radius:5px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;
+  background-color: rgb(255, 255, 255);
+}
+.main_section img{
+ max-width:200px;
+ max-height:120px;
+ min-height: 120px;
+ margin: auto;
+ border-radius: 50%;
+}
+#Organisationlist .main_section .social a{
+  font-size: 30px;
+ }
+ #Organisationlist .main_section .social .ri-facebook-fill{
+  color:#3b5998;
+ }
+ #Organisationlist .main_section .social .ri-twitter-fill{
+  color:#00acee;
+ }
+ #Organisationlist .main_section .social .ri-linkedin-box-fill{
+  color:#0e76a8;
+ } 
+
+ /*--------------------------------------------------------------
+# Dorctor Pofile
+--------------------------------------------------------------*/
+.dorctr_pofile{
+  margin-top:130px;
+  background-color:#D9EDF7;
+  height: 100%;
+  width: 100%;
+  padding-top: 20px;
+}
+.dorctr_pofile img{
+  width: 100%;
+  max-width: 295px;
+  max-height: 275px;
+  min-height: 286px;
+  border-radius: 5px;
+  margin:21px auto;
+ }
+.dorctr_pofile p{
+  text-align: justify;
+ }
+.dorctr_pofile .inner_section{
+ padding: 0px 25px 0px 25px;
+ }
+ .dorctr_pofile .social a{
+  font-size: 35px;
+ }
+  .dorctr_pofile .social .ri-facebook-fill{
+  color:#3b5998;
+ }
+  .dorctr_pofile .social .ri-twitter-fill{
+  color:#00acee;
+ }
+  .dorctr_pofile .social .ri-linkedin-box-fill{
+  color:#0e76a8;
+ } 
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
@@ -618,89 +741,16 @@ img.img-fulid.hospital_logo {
   text-decoration: none;
 }
 
-/*--------------------------------------------------------------
-# Registration
---------------------------------------------------------------*/
-.Registration_form{
-  background-color: #4C6886;
-}
-
-
-/*--------------------------------------------------------------
-# Visitor
---------------------------------------------------------------*/
-.visitor_From{
-  background-color: #4C6886;
-}
-
-
-/*--------------------------------------------------------------
-# Dorctor Reg
---------------------------------------------------------------*/
-.dorctorreg_from{
-  background-color: #4C6886;
-}
-
-
-/*--------------------------------------------------------------
-# Dorctor Pofile
---------------------------------------------------------------*/
-#doctormain_section{
-  margin-top:130px;
-  background-color:#D9EDF7;
-}
-.doctor_section{
-	width: 100%;
-	height: 100%;
-  border-radius:5px;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	flex-direction: column;
-  background-color: rgb(255, 255, 255);
-}
-.doctor_section img{
-  max-width: 263px;
-  max-height: 250px;
-  min-height: 250px;
-  border-radius: 10%;
-}
-
-
- /*--------------------------------------------------------------
-# Organisation List
---------------------------------------------------------------*/
-#Organisationlist{
-  margin-top:130px;
-  background-color:#D9EDF7;
-}
-.main_section{
-	width: 100%;
-	height: 100%;
-  border-radius:5px;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	flex-direction: column;
-  background-color: rgb(255, 255, 255);
-}
-.main_section img{
- max-width:200px;
- max-height:120px;
- min-height: 120px;
- margin: auto;
- border-radius: 50%;
-}
-#Organisationlist .main_section .social a{
-  font-size: 30px;
+#footer .footer_icon .social{
+  font-size: 20px;
  }
- #Organisationlist .main_section .social .ri-facebook-fill{
+ #footer .footer_icon .social .ri-facebook-fill{
   color:#3b5998;
  }
- #Organisationlist .main_section .social .ri-twitter-fill{
+ #footer .footer_icon .social .ri-twitter-fill{
   color:#00acee;
  }
- #Organisationlist .main_section .social .ri-linkedin-box-fill{
+ #footer .footer_icon .social .ri-linkedin-box-fill{
   color:#0e76a8;
  } 
 
